@@ -1,7 +1,7 @@
 ---
 name: Feature request (Test)
 about: Suggest an idea for this project
-title: Prefix | Sentral-element | Utvidet-kontekst
+title: Prefix | Sentral_element | Utvidet_kontekst
 labels: ''
 assignees: ''
 
