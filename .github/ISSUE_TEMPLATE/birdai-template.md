@@ -10,7 +10,7 @@ assignees: ''
 ## Beskrivelse
 
 **Oppgavebeskrivelse**
-Skriv om:
+Arbeidsoppgave:
 
 Kontekst:
 
