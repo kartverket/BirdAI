@@ -10,9 +10,9 @@ assignees: ''
 ## Beskrivelse
 
 **Oppgavebeskrivelse**
-Hva skal gjøres?
+Skriv om:
 
-Kontekst rundt oppgaven.
+Kontekst:
 
 
 **Definition of Done (DoD)**
