@@ -9,11 +9,11 @@ assignees: ''
 
 ## Beskrivelse
 
-**Oppgavebeskrivelse**
-Arbeidsoppgave:
+### Oppgavebeskrivelse
+**Arbeidsoppgave:**
 
-Kontekst:
+**Kontekst:**
 
 
-**Definition of Done (DoD)**
-Krav for fullført oppgave:
+### Definition of Done (DoD)
+**Krav for fullført oppgave:**
