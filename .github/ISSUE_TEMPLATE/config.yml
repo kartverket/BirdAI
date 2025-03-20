@@ -1,0 +1,16 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support
+    url: https://github.com/kartverket/BirdAI/discussions/new
+    about: If you have questions, visit our discussion forum.
+issue_templates:
+  - name: BirdAI Template
+    description: BirdAI is a project aimed to develop an object-detection model to detect objects in the sky.
+    title: "Prefix | Sentralt_element | Utvidet_kontekst"
+    labels: '' 
+    assignees: '' 
+    - name: feature request-test
+    description: Test template
+    title: "Feature: [Short description]"
+    labels: '' 
+    assignees: '' 
