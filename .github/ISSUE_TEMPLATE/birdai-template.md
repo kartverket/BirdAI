@@ -42,4 +42,4 @@ Subject: ''
 | Ved item fra New → Todo | Alle merkander skal være fylt, samt tittel og beskrivelse.       | 
 | Ved item fra Todo → In Progress | Legg på Start date (== dagens dato) |
 | Ved item fra In Progress → In Review | Legg til kommentar til "revisor", tagg "revisor" og legg "revisor" til som Assigne |
-| Ved item fra In Review → Done! | Kommenter på "revisors" tilbakemelding, og evt. kommentarer til videre ved label: Revisiting|
+| Ved item fra In Review → Done! | Legg til End date (== dagens dato). Kommenter på "revisors" tilbakemelding, og evt. kommentarer til videre ved label: Revisiting|
