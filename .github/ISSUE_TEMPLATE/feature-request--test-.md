@@ -1,5 +1,5 @@
 ---
-name: Bug report
+name: feature request-test
 description: Use this template to report a bug.
 title: "Prefix | Sentralt_element | Utvidet_kontekst"
 labels: bug
