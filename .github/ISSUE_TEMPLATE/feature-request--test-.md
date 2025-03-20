@@ -6,6 +6,9 @@ labels: bug
 assignees: ''
 ---
 
+## About
+A brief description of the feature request.
+
 ## Describe the bug
 A clear and concise description of what the bug is.
 
