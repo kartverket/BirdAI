@@ -1,7 +1,7 @@
 ---
 name: BirdAI template
 about: Issues/Items connected to the BirdAI project
-title: Prefix | Sentralt_element | Utvidet_kontekst
+title: "Prefix | Sentralt_element | Utvidet_kontekst"
 Assignees: ''
 Labels: ''
 Estimate (Effort): ''
