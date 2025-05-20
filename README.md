@@ -31,5 +31,13 @@ cd BirdAI
 # Install dependencies
 pip install -r requirements.txt
 
+## Usage
+
 # Run inference
-python tools/inference/web_inf.py -c configs/dfine/dfine_hgnetv2_n_custom.yml -r best.pth --device cpu
+python tools/inference/web_inf.py -c configs/dfine/dfine_hgnetv2_n_custom.yml -r best.pth --device CPU
+
+## Contributing
+TBA
+
+## License
+TBA
