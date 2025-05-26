@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ```bash
 # Run inference
-python tools/inference/web_inf.py -c configs/dfine/dfine_hgnetv2_n_custom.yml -r best.pth --device CPU
+python tools/inference/web_inf.py -c configs/dfine/dfine_hgnetv2_n_custom.yml -r best.pth --device cpu
 ```
 
 ## Contributing
