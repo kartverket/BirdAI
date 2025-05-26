@@ -19,7 +19,9 @@ def draw(image_pil, labels, boxes, scores, thrh=0.4):
     lab = labels[0][scr > thrh]
     box = boxes[0][scr > thrh]
     scrs = scr[scr > thrh]
-
+    
+    detected_classes = set()  # Track detected classes to avoid duplicate prints
+    
     for j, b in enumerate(box):
         label_idx = lab[j].item()
         class_name = CLASS_NAMES[label_idx] if label_idx < len(CLASS_NAMES) else f"Class {label_idx}"
@@ -28,7 +30,14 @@ def draw(image_pil, labels, boxes, scores, thrh=0.4):
 
         draw.rectangle(list(b), outline="red", width=3)
         draw.text((b[0], b[1]), text=label_text, fill="blue")
-
+        
+        # Print numbers based on detected class
+        if class_name == "Flying-object" and "Flying-object" not in detected_classes:
+            print(1)
+            detected_classes.add("Flying-object")
+        elif class_name == "Non-flying-object" and "Non-flying-object" not in detected_classes:
+            print(2)
+            detected_classes.add("Non-flying-object")
 
 
 def main():
@@ -72,7 +81,7 @@ def main():
     model.eval()
 
     # Setup OpenCV webcam capture
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     if not cap.isOpened():
         print("Cannot open webcam")
         return
