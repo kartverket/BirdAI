@@ -1,0 +1,12 @@
+# nonk8s
+apiVersion: "backstage.io/v1alpha1"
+kind: "Component"
+metadata:
+  name: "BIRDAi"
+  tags:
+  - "internal"
+  - "private"
+spec:
+  type: "service"
+  lifecycle: "production"
+  owner: "geodesi"
